@@ -5,9 +5,20 @@
         <meta charset="utf-8">
         <title>Black Goose Restaurant</title>
         <link rel="stylesheet" href="main.css">
+        
+        <script language="javascript" type="text/javascript">
+            <!--
+                function popitup(url) {
+                newwindow=window.open(url,'name','height=800,width=725');
+                if (window.focus) {newwindow.focus()}
+                return false;
+            }
+            // -->
+        </script>
+        
     </head>
     
-    <div id="header">
+    <div id="header"> <a name="top"></a>
         <a class="logo" href="index.htm"> <img src="images/blackgooseicon.png" id="title"> </a>  
             <ul class="menu">
                 <li><a href="index.htm">Home</a></li>
@@ -19,8 +30,9 @@
     </div>
     
     <body>
-        <h1>Black Goose Bistro - Blog</h1>
+        <h1>Black Goose Bistro - Blog</h1> 
     
+            
         <h2> The Restaurant <img src="images/blogicon.png" alt="hi"> </h2> 
      
         <h1 style='none='><strong>Summer Menu Items</strong></h1>
@@ -68,18 +80,20 @@
         
         <h1>Our Favorite Dishes!</h1>
             <p>Roasted Veggies and Salami</p>
-                <a href="veggies.htm" target="_blank"><img src="images/blog_entries/veggies_icon.jpg" style="margin-left: 120px"></a>
+                <a href="veggies.htm" onclick="return popitup('veggies.htm')"><img src="images/blogphotos/veggies_icon.jpg" style="margin-left: 120px"></a>
                 <br />
             <p>Pizza Margarita</p>
-                <a href="pizza.htm" target="_blank"><img src="images/blog_entries/margpizza_icon.png" style="margin-left: 120px"></a>
+                <a href="pizza.htm" onclick="return popitup('pizza.htm')"><img src="images/blogphotos/margpizza_icon.png" style="margin-left: 120px"></a>
                 <br />
             <p>Ahi Tuna</p>
-                <a href="ahi.htm" target="_blank"><img src="images/blog_entries/ahi_icon.jpg" style="margin-left: 120px"></a>
+                <a href="ahi.htm" onclick="return popitup('ahi.htm')"><img src="images/blogphotos/ahi_icon.jpg" style="margin-left: 120px"></a>
                 <br />
             <p>Ethiopean Fusion</p>
-                <a href="ethiopian.htm" target="_blank"><img src="images/blog_entries/ethiopian_icon.jpg" style="margin-left: 120px"></a>
+                <a href="ethiopian.htm" onclick="return popitup('ethiopian.htm')"><img src="images/blogphotos/ethiopian_icon.jpg" style="margin-left: 120px"></a>
                 <br />
-        
+        <br />
+        <a href="#top" style="margin-left: 120px">Back to the top</a>
+        <br />
         
         <h2> My Recipe: Yaprakes - <bdo dir=“rtl”> המלוד </bdo> </h2>
         <img src="images/yaprakes.jpg">
