@@ -37,10 +37,6 @@ h2 {
 h4, h6 {
     color: #A9A9A9;        
 }
-            
-h1, h2,p, h4, h6, h3 {
-    margin-left: 120px;            
-}
 
 .header {
     position: relative;
@@ -189,4 +185,9 @@ html, body {
 	.footer-distributed .footer-left p.footer-links{
 		line-height: 1.8;
 	}
+}
+
+/* CATERING PAGE */
+.sub_section {
+    margin-left: 120px;
 }
