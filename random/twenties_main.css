@@ -1,0 +1,19 @@
+/* THIS IS THE CSS FOR MY TWENTIES HTML DOC */
+
+h1, h2 {
+    color: red;   
+}
+
+hr {
+    border-color: orange;
+    margin-top: -20px;
+    border-width: 3px;
+}
+
+h2, p {
+    margin-left: 80px;
+}
+ 
+img {
+float: right;
+}
