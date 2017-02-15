@@ -1,0 +1,42 @@
+.info, h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    color: purple;
+}
+
+h2 {
+    letter-spacing: 8px;
+}
+
+.info_text {
+    color: olive;
+}
+
+
+.warning {
+    color: red;
+    text-align: left;
+}
+
+dt {
+    color: darkorange;
+}
+
+.price {
+    color: olive;
+    font-style: italic;
+}
+
+.new {
+    color: firebrick;
+}
+
+.desc {
+    font-style: italic;
+}
+
+dt, dd {
+    padding-top: 5px;
+}
